@@ -1,0 +1,81 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(218, 255, 255);
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+h1{
+    font-family: "Roboto";
+    font-weight: 800;
+}
+button{
+    display: flex;
+
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 60px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(54, 192, 134, 0);
+    border: 2px solid rgb(255, 85, 0);
+    transition: 0.1s ease-in-out;
+}
+button:hover{
+    background-color: rgb(255, 85, 0);
+    color: rgb(218, 255, 255);
+}
+.button-text{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+}
+input{
+    display: flex;
+    text-align: center;
+    height: 20px;
+    background-color: rgb(0, 102, 255);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.1s ease-in-out;
+}
+input:hover{
+    outline: 2px solid rgb(255, 85, 0);
+    scale: 110%;
+}
+input:focus{
+    outline: 3px solid rgb(255, 85, 0);
+    scale: 110%;
+}
+select{
+    background-color: rgb(0, 102, 255);
+    color: azure;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+}
+select:hover{
+    outline: 2px solid rgb(255, 85, 0);
+    scale: 110%;
+}
+select:focus{
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield; 
+    appearance: textfield; 
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="group">
+    <label for="user-year" style="font-family: Roboto; font-weight: 500; margin-left: 5px; margin-bottom: 5px;">Set your birth year</label>
+    <input type="number" name="user-year" id="user-year">
+    <label for="user-month" style="font-family: Roboto; font-weight: 500; margin-left: 5px; margin-bottom: 5px;">Set your birth month</label>
+    <select name="user-month" id="user-month" style="font-family: Roboto;">
+        <option value="month1">January</option>
+        <option value="month2">February</option>
+        <option value="month3">March</option>
+        <option value="month4">April</option>
+        <option value="month5">May</option>
+        <option value="month6">Juny</option>
+        <option value="month7">July</option>
+        <option value="month8">August</option>
+        <option value="month9">September</option>
+        <option value="month10">October</option>
+        <option value="month11">November</option>
+        <option value="maonth12">December</option>
+    </select>
+
+    <button class="button-text" onclick="displayResult()" style="margin-top: 20px;">Count your age</button>
+
+
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
